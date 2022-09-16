@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>python en javaScrip</title>
+</head>
+
+<body>
+    <section class="section_btn">
+        <div>
+            <button onclick="div1()">Ejercicio 01</button>
+            <button onclick="div2()">Ejercicio 02</button>
+            <button onclick="div3()">Ejercicio 03</button>
+            <button onclick="div4()">Ejercicio 04</button>
+            <button onclick="div5()">Ejercicio 05</button>
+            <button onclick="div6()">Ejercicio 06</button>
+            <button onclick="div7()">Ejercicio 07</button>
+            <button onclick="div8()">Ejercicio 08</button>
+            <button onclick="div9()">Ejercicio 09</button>
+            <button onclick="div10()">Ejercicio 10</button><br>
+            <button onclick="div11()">Ejercicio 11</button>
+            <button onclick="div12()">Ejercicio 12</button>
+            <button onclick="div13()">Ejercicio 13</button>
+            <button onclick="div14()">Ejercicio 14</button>
+            <button onclick="div15()">Ejercicio 15</button>
+            <button onclick="div16()">Ejercicio 16</button>
+            <button onclick="div17()">Ejercicio 17</button>
+            <button onclick="div18()">Ejercicio 18</button>
+            <button onclick="div19()">Ejercicio 19</button>
+            <button onclick="div20()">Ejercicio 20</button>
+        </div>
+    </section>
+    <section class="section_container">
+        <div class="ejercicio_01 divs" id="div1" style="display:block ;">
+            <h2>Opreaciones Matematicas</h2>
+            <input type="int" id="ejer1_num1" placeholder="Ingrese el primer numero"><br>
+            <input type="int" id="ejer1_num2" placeholder="Ingrese el segundo numero"><br>
+            <p id="resultados_ejer01"></p>
+            <button onclick="ejecicio1_sumar()">Sumar</button>
+            <button onclick="ejecicio1_restar()">Restar</button>
+            <button onclick="ejecicio1_multiplicar()">Multiplicar</button>
+            <button onclick="ejecicio1_divicion()">Dividir</button><br>
+        </div>
+        <div class="ejercicio_02 divs" id="div2" style="display:none;">
+            <h2>Area del retangulo</h2>
+            <input type="int" id="ejer2_num1" placeholder="Ingrese el lado 1"><br>
+            <input type="int" id="ejer2_num2" placeholder="Ingrese el lad0 2"><br>
+            <p id="resultados_ejer02"></p>
+            <button onclick="ejercicio2_areaRetangulo()">Calcular el area</button>
+        </div>
+        <div class="ejercicio_03 divs" id="div3" style="display:none;">
+            <h2>calcular la media</h2>
+            <input type="int" id="ejer3_num1" placeholder="Ingrese el primer numero"><br>
+            <input type="int" id="ejer3_num2" placeholder="Ingrese el segundo numero"><br>
+            <input type="int" id="ejer3_num3" placeholder="Ingrese el tercer numero"><br>
+            <input type="int" id="ejer3_num4" placeholder="Ingrese el cuarto numero"><br>
+            <p id="resultados_ejer03"></p>
+            <button onclick="ejercicio3_media()">Calcular la media</button>
+        </div>
+        <div class="ejercicio_04 divs" id="div4" style="display:none;">
+            <h2>Area del triangulo</h2>
+            <input type="int" id="ejer4_num1" placeholder="Ingrese el valor de la base"><br>
+            <input type="int" id="ejer4_num2" placeholder="Ingrese el valor de la altura"><br>
+            <p id="resultados_ejer04"></p>
+            <button onclick="ejercicio4_areaTriangulo()">Calcular el area</button>
+        </div>
+        <div class="ejercicio_05 divs" id="div5" style="display:none;">
+            <h2>longitud y el área de una circunferencia</h2>
+            <input type="int" id="ejer5_num1" placeholder="Ingrese el valor del radio"><br>
+            <p id="resultados_ejer05"></p>
+            <button onclick="ejercicio5_LongitudCircuferencia()">Calcular la longitud</button>
+            <button onclick="ejercicio5_areaCircuferencia()">Calcular el area</button>
+        </div>
+        <div class="ejercicio_06 divs" id="div6" style="display:none;">
+            <h2>la velocidad de un proyectil</h2>
+            <input type="int" id="ejer6_num1" placeholder="Ingrese la recorrido del proyectil (KM)"><br>
+            <input type="int" id="ejer6_num2" placeholder="Ingrese el tiempo de vuelo (M)"><br>
+            <p id="resultados_ejer06"></p>
+            <button onclick="ejercicio6_velocidadProyectil()">Calcular la velocidad</button>
+        </div>
+        <div class="ejercicio_07 divs" id="div7" style="display:none;">
+            <h2>volumen de una esfera</h2>
+            <input type="int" id="ejer7_num1" placeholder="Ingrese el valor del radio"><br>
+            <p id="resultados_ejer07"></p>
+            <button onclick="ejercicio5_volumenEsfera()">Calcular la longitud</button>
+        </div>
+        <div class="ejercicio_08 divs" id="div8" style="display:none;">
+            <h2>expresión: (a+7*c)/(b+2-a)+2*b</h2>
+            <input type="int" id="ejer8_num1" placeholder="Ingrese el valor de A"><br>
+            <input type="int" id="ejer8_num2" placeholder="Ingrese el valor de B"><br>
+            <input type="int" id="ejer8_num3" placeholder="Ingrese el valor de C"><br>
+            <p id="resultados_ejer08"></p>
+            <button onclick="ejercicio8_exprecion()">Calcular la expresión</button>
+        </div>
+        <div class="ejercicio_09 divs" id="div9" style="display:none;">
+            <h2>área y el volumen de un cilindro</h2>
+            <input type="int" id="ejer9_num1" placeholder="Ingrese el valor del radio"><br>
+            <input type="int" id="ejer9_num2" placeholder="Ingrese el valor de la altura"><br>
+            <p id="resultados_ejer09"></p>
+            <button onclick="ejercicio9_areaCilindro()">Calcular el area</button>
+            <button onclick="ejercicio9_volumenCilindro()">Calcular el volumen</button>
+        </div>
+        <div class="ejercicio_10 divs" id="div10" style="display:none;">
+            <h2>ecuación de segundo grado: A * x2 + b * x + c</h2>
+            <input type="int" id="ejer10_num1" placeholder="Ingrese el valor de A"><br>
+            <input type="int" id="ejer10_num2" placeholder="Ingrese el valor de B"><br>
+            <input type="int" id="ejer10_num3" placeholder="Ingrese el valor de C"><br>
+            <b>X = 5</b>
+            <p id="resultados_ejer10"></p>
+            <button onclick="ejercicio10_ecuación()">Calcular la ecuación</button>
+        </div>
+        <div class="ejercicio_11 divs" id="div11" style="display:none;">
+            <h2>volumen de un elipsoide</h2>
+            <input type="int" id="ejer11_num1" placeholder="Ingrese el valor de A"><br>
+            <input type="int" id="ejer11_num2" placeholder="Ingrese el valor de B"><br>
+            <input type="int" id="ejer11_num3" placeholder="Ingrese el valor de C"><br>
+            <p id="resultados_ejer11"></p>
+            <button onclick="ejercicio11_volumenElipsoide()">Calcular el volumen</button>
+        </div>
+        <div class="ejercicio_12 divs" id="div12" style="display:none;">
+            <h2> pago de llamada telefónica</h2>
+            <input type="int" id="ejer12_num1" placeholder="Ingrese los minutos de la llamada"><br>
+            <p id="resultados_ejer12"></p>
+            <button onclick="ejercicio12_valorLlamada()">Calcular valor llamada</button>
+        </div>
+        <div class="ejercicio_13 divs" id="div13" style="display:none;">
+            <h2>velocidad de un automóvil expresada en kilómetros por hora, proporcione la velocidad en metros por segundos.</h2>
+            <input type="int" id="ejer13_num1" placeholder="Ingrese la velocidad en KM/H"><br>
+            <p id="resultados_ejer13"></p>
+            <button onclick="ejercicio13_convertir()">Convertir</button>
+        </div>
+        <div class="ejercicio_14 divs" id="div14" style="display:none;">
+            <h2> aplica descuento al precio de los remedios</h2>
+            <input type="int" id="ejer14_num1" placeholder="Ingrese el valor del producto"><br>
+            <p id="descuento_produto"></p>
+            <p id="resultados_ejer14"></p>
+            <button onclick="ejercicio13_convertir()">Calcular descuento</button>
+        </div>
+    </section>
+    <script src="js/funciones_ejercicios_praticos.js"></script>
+    <script src="js/funcion_mostar_ocultar.js"></script>
+</body>
+</html>

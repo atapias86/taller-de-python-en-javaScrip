@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+.section_btn div{
+    border-style: none solid solid solid;
+    border-color: red;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+   margin: 0px 2px;
+   font-size: 16px;
+}
+.section_btn div button{
+    font-size: 1em;
+    font-weight: bold;
+    margin: 8px 15px;
+    padding: 7px;
+    background-color: aqua;
+    box-shadow: 5px 5px 5px white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.section_btn div button:hover{
+    transition: all .5s;
+    transform: scale(1.1);
+    background-color: #E4571E ;
+    border-radius: 0px;
+    color: white;
+    box-shadow: 5px 5px 5px #5D6D7E;
+}
+.section_container{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.divs{
+    border: 1px solid aqua;
+    box-shadow: 5px 5px 5px #5D6D7E;
+    border-radius: 10px;
+    width: 28%;
+    padding: 20px;
+    margin: auto;
+}
+.divs h2{
+    text-transform: uppercase;
+    font-size: 100%;
+    font-weight: bold;
+    color: white;
+}
+.divs input{
+    width: 60%;
+    margin: 15px;
+    font-size: 1em;
+    height: 30px;
+    padding: 5px;
+    border: .5px solid red;
+}
+.divs b{
+    color: white;
+    margin: 5px;
+}
+.divs button{
+    padding: 5px;
+    font-size: .8em;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+.divs button:hover{
+   background-color: #5D6D7E;
+}
+.divs p{
+    color: red;
+}
